@@ -51,7 +51,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 max-w-[450px] w-full">
+    <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 min-w-[370px] max-w-[470px]">
       <Card className="rounded-full shadow-md">
         <CardContent className="flex items-center justify-between px-4 py-2">
           <Link href="#">
