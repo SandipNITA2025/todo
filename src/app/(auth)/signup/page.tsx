@@ -3,8 +3,8 @@ import React from 'react'
 
 const Signup = () => {
   return (
-    <div className='w-full h-screen flex items-center justify-center'><SignupForm/></div>
+    <main className='w-full h-screen flex items-center justify-center'><SignupForm/></main>
   )
 }
 
-export default Signup
+export default Signup;
