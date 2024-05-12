@@ -121,14 +121,14 @@ export function TodoLists() {
   }, [userData]);
 
   return (
-    <div className="mt-[7rem] flex flex-col dark:bg-black">
+    <div className="mt-[7rem] flex flex-col dark:bg-transparent">
       <main className="flex-1 overflow-y-auto p-6">
         <div className="mb-6 text-center  text-gray-900 dark:text-gray-100">
           <h1 className="text-3xl font-bold">Hi, {userData?.userName}</h1>
           <p> Here&apos;s your todo list</p>
         </div>
 
-        <div className="w-full flex items-center justify-between mb-3">
+        <div className="w-full flex items-center justify-between mb-3 overflow-hidden">
           <span className="text-gray-900 dark:text-gray-50 font-medium">
             Tasks Completed
           </span>
@@ -152,7 +152,7 @@ export function TodoLists() {
           </div>
         </div>
 
-        <div className="min-w-[360px]   max-w-[470px]  mx-auto space-y-4">
+        <div className="min-w-[360px]   max-w-[470px]  mx-auto space-y-4 overflow-hidden">
           <form
             onSubmit={handleSubmit}
             className="flex items-center bg-gray-100 dark:bg-gray-800 rounded-md shadow-sm px-4 py-3"
