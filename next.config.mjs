@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "https://plain-shorts-dove.cyclic.app/api/:path*",
+        destination: "https://finstar-assignment-backend.vercel.app/api/:path*",
       },
     ];
   },
